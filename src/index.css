@@ -1,0 +1,68 @@
+body {
+  font: 16px sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.inputs {
+  position: relative;
+  max-width: 100%;
+  width: 420px;
+  margin-bottom: 32px;
+}
+
+.inputs .input {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.inputs .input .label {
+  width: 40%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.inputs .input .field {
+  width: 60%;
+}
+
+.results button {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+tr, th, td {
+  border: 1px solid lightgrey;
+}
+
+table {
+  border-collapse: collapse;
+  display: none;
+}
+
+table.visible {
+  display: block;
+}
+
+td, th {
+  padding: 4px;
+  padding-left: 16px;
+  text-align: right;
+}
+
+.summary {
+  /*text-align: center;*/
+}
+
+input {
+  height: 20px;
+}
+
+
