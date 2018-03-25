@@ -61,6 +61,18 @@ export function calculate(
   return months;
 }
 
+export function sumAllProps(arr) {
+
+  let props = Object.keys(arr[0]);
+  let sum = {};
+
+  props.forEach((prop) => {
+    sum[prop] = arr.reduce((acc, val) => acc + val[prop], 0);
+  });
+
+  return sum;
+}
+
 
 
 export function calculateEarnings(amount, interest, monthsToEnd) {
